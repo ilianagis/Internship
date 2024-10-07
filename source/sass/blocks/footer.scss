@@ -1,0 +1,138 @@
+.footer__container {
+  padding: 40px 0 0;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px 0;
+  }
+}
+
+.footer__logo {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background: #ffffff;
+  margin: 0 0 19px;
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+.footer__list {
+  @include list-reset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 30px;
+  margin: 0 0 21px;
+
+  @media (min-width: 768px) {
+    gap: 16px;
+    margin: 0;
+  }
+}
+
+.footer__confidentiality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 15px;
+
+  @media (min-width: 768px) {
+    align-items: unset;
+  }
+}
+
+.footer__link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #484848;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.footer__confidentiality a {
+  border-bottom: 1px solid #484848;
+  width: 182px;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 0 0 2px;
+
+  @media (min-width: 768px) {
+    line-height: 12px;
+  }
+}
+
+.footer__copyright {
+  font-size: 12px;
+  line-height: 14px;
+
+  @media (min-width: 768px) {
+    line-height: 12px;
+  }
+}
+
+.footer__social {
+  @include list-reset;
+  display: flex;
+  gap: 10px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 15px;
+  }
+}
+
+.footer__social-link {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  color: #ffffff;
+  background: #316dc2;
+
+  @media (min-width: 768px) {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.footer__social-img--vk {
+  @media (min-width: 768px) {
+    width: 16px;
+    height: 11px;
+  }
+}
+
+.footer__social-img--ok {
+  @media (min-width: 768px) {
+    width: 11px;
+    height: 17px;
+  }
+}
+
+.footer__social-img--reddit {
+  @media (min-width: 768px) {
+    width: 16px;
+    height: 16px;
+  }
+}

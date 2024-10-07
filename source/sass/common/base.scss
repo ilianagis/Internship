@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.page-body {
+  font-family: "Manrope", "Arial", sans-serif;
+  color: #484848;
+  background: #f0efe9;
+}
+
+.container {
+  margin: 0 auto;
+  width: 290px;
+
+  @media (min-width: 768px) {
+    width: 678px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 1240px;
+  }
+}
+
+img {
+  display: block;
+}

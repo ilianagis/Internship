@@ -1,0 +1,28 @@
+.news-pagination {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  max-width: 170px;
+  margin: 0 0 3px 60px;
+
+  @media (min-width: 768px) {
+    gap: 12px;
+    max-width: 204px;
+    margin: 0 0 3px 237px;
+  }
+}
+
+.news-pagination .swiper-pagination-bullet {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: #90add5;
+}
+
+.news-pagination .swiper-pagination-bullet-active {
+  background: #316dc2;
+  color: #ffffff;
+}

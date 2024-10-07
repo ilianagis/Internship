@@ -1,0 +1,21 @@
+#slider1 .swiper-slide:nth-child(n+9),
+#slider2 .swiper-slide:nth-child(n+9),
+#slider3 .swiper-slide:nth-child(n+9),
+#slider4 .swiper-slide:nth-child(n+9),
+#slider5 .swiper-slide:nth-child(n+9) {
+  display: none; /* Скрываем слайды с 9 по 16 на мобильной версии */
+
+  @media (min-width: 768px) and (max-width: 1439px) {
+    display: block; /* открываем слайды с 9 по 16 на планшетной версии */
+  }
+}
+
+#slider1 .swiper-slide:nth-child(n+13),
+#slider2 .swiper-slide:nth-child(n+13),
+#slider3 .swiper-slide:nth-child(n+13),
+#slider4 .swiper-slide:nth-child(n+13),
+#slider5 .swiper-slide:nth-child(n+13) {
+  @media (min-width: 1440px) {
+    display: none; /* Скрываем слайды с 13 по 16 на десктопной версии */
+  }
+}
