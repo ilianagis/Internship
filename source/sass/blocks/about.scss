@@ -10,7 +10,7 @@
   }
 
   @media (min-width: 1440px) {
-    padding: 70px 0 50px;
+    padding: 70px 0 60px;
   }
 }
 
@@ -157,7 +157,7 @@
   }
 
   @media (min-width: 1440px) {
-    padding: 72px 50px 30px 120px;
+    padding: 72px 50px 50px 120px;
   }
 }
 
@@ -178,6 +178,7 @@
     display: flex;
     padding: 30px 21px 30px 40px;
     gap: 30px;
+    align-items: center;
   }
 }
 
@@ -214,6 +215,7 @@
     line-height: 30px;
     letter-spacing: 0.26px;
     width: 171px;
+    margin: 0;
   }
 }
 
@@ -233,6 +235,6 @@
   @media (min-width: 1440px) {
     font-size: 16px;
     line-height: 20px;
-    max-width: 192px;
+    max-width: 194px;
   }
 }

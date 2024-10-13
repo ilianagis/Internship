@@ -1,5 +1,9 @@
 .footer__container {
   padding: 40px 0 0;
+
+  @media (min-width: 1440px) {
+    padding: 60px 0 50px;
+  }
 }
 
 .footer__nav {

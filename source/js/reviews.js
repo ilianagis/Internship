@@ -20,11 +20,9 @@ export function reviewsSwiper() {
     },
     on: {
       init: function () {
-        // Установим начальную позицию индикатора в зависимости от активного слайда
         updateIndicator(this);
       },
       slideChange: function () {
-        // При смене слайда обновляем позицию индикатора
         updateIndicator(this);
       },
     },

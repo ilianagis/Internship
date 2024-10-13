@@ -9,6 +9,12 @@
   @media (min-width: 768px) {
     padding: 100px 0;
   }
+
+  @media (min-width: 1440px) {
+    padding: 120px 0 119px;
+    display: flex;
+    gap: 136px;
+  }
 }
 
 .grant__title {
@@ -40,6 +46,10 @@
     width: 500px;
     margin: 0 0 40px;
   }
+
+  @media (min-width: 1440px) {
+    line-height: 26px;
+  }
 }
 
 .grant__img {
@@ -59,6 +69,13 @@
     padding-right: 0;
     margin: 0 0 45px;
   }
+
+  @media (min-width: 1440px) {
+    font-size: 32px;
+    line-height: 36px;
+    padding-right: 120px;
+    margin: 0 0 55px;
+  }
 }
 
 .grant__list {
@@ -74,6 +91,10 @@
     padding: 0 0 0 20px;
     gap: 25px 48px;
   }
+
+  @media (min-width: 1440px) {
+    gap: 23px;
+  }
 }
 
 .grant__item {
@@ -85,6 +106,10 @@
   @media (min-width: 768px) {
     width: 305px;
     padding: 30px 34px 30px 25px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 478px;
   }
 }
 
@@ -120,5 +145,16 @@
   @media (min-width: 768px) {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  @media (min-width: 1440px) {
+    line-height: 26px;
+  }
+}
+
+.grant__requirements {
+  @media (min-width: 1440px) {
+    width: 498px;
+    padding-top: 10px;
   }
 }

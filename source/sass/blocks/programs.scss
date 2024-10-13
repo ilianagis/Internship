@@ -5,10 +5,14 @@
 
   @media (min-width: 768px) {
     padding: 53px 0 82px;
+    width: 723px;
+    margin: 0 0 0 45px;
   }
 
   @media (min-width: 1440px) {
-    padding: 75px 0 82px;
+    padding: 65px 0 92px;
+    width: 1240px;
+    margin: 0 auto;
   }
 }
 
@@ -35,6 +39,10 @@
   @media (min-width: 768px) {
     gap: 30px;
   }
+
+  @media (min-width: 1440px) {
+    gap: 32px;
+  }
 }
 
 .programs__slide-title {
@@ -59,6 +67,7 @@
   @media (min-width: 1440px) {
     font-size: 24px;
     line-height: 17px;
+    width: 194px;
   }
 }
 
@@ -75,6 +84,12 @@
   @media (min-width: 768px) {
     width: 284px;
     min-height: 87px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 321px;
+    min-height: 82px;
+    padding: 11px 18px 11px 18px;
   }
 }
 
@@ -118,12 +133,17 @@
   @media (min-width: 768px) {
     position: absolute;
     top: 50px;
-    right: 0;
+    right: 45px;
     width: 234px;
     height: 56px;
     font-size: 14px;
     line-height: 14px;
     letter-spacing: 0.28px;
+  }
+
+  @media (min-width: 1440px) {
+    top: 62px;
+    right: 0;
   }
 }
 
@@ -150,11 +170,13 @@
   @media (min-width: 768px) {
     height: 420px;
     max-width: 324px;
+    min-width: 324px;
     padding: 285px 0 10px 20px;
   }
 
   @media (min-width: 1440px) {
     min-width: 392px;
+    padding: 280px 0 10px 20px;
   }
 }
 
@@ -249,10 +271,15 @@
 
   @media (min-width: 768px) {
     top: unset;
-    bottom: 50px;
+    bottom: 72px;
     min-width: 54px;
     gap: 13px;
+    right: 46px;
+  }
+
+  @media (min-width: 1440px) {
     right: 1px;
+    bottom: 82px;
   }
 }
 

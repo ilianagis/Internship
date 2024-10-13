@@ -1,11 +1,16 @@
 .pagination-indicator {
   @media (min-width: 768px) {
     position: absolute;
-    bottom: 18px;
+    bottom: 60px;
     height: 2px;
     background: rgba(49, 109, 194, 0.2);
     transition: all 0.3s ease;
     width: 562px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 1136px;
+    bottom: 70px;
   }
 }
 
@@ -15,5 +20,9 @@
     background-color: #316dc2;
     height: 2px;
     position: absolute;
+  }
+
+  @media (min-width: 1440px) {
+    width: 394px;
   }
 }

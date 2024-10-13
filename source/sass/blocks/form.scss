@@ -5,6 +5,10 @@
   @media (min-width: 768px) {
     padding: 50px 0;
   }
+
+  @media (min-width: 1440px) {
+    padding: 60px 0;
+  }
 }
 
 .form__container {
@@ -43,6 +47,7 @@
       url("../../img/form/form-bg-d@2x.jpg") type("image/jpg") 2x
     );
     height: 800px;
+    width: 1240px;
   }
 }
 
@@ -60,6 +65,12 @@
     padding: 42px 40px 30px 40px;
     border-radius: 16px;
   }
+
+  @media (min-width: 1440px) {
+    width: 490px;
+    height: 800px;
+    padding: 44px 57px 30px 70px;
+  }
 }
 
 .form__title {
@@ -74,6 +85,12 @@
     line-height: 28px;
     margin: 0 0 30px;
   }
+
+  @media (min-width: 1440px) {
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0 0 34px;
+  }
 }
 
 .form__wrapper p {
@@ -85,6 +102,10 @@
     font-size: 16px;
     margin: 0 0 40px;
   }
+
+  @media (min-width: 1440px) {
+    line-height: 26px;
+  }
 }
 
 .form__list {
@@ -93,6 +114,10 @@
   display: flex;
   flex-direction: column;
   margin: 0 0 20px;
+
+  @media (min-width: 1440px) {
+    margin: 0 0 18px;
+  }
 }
 
 .form__item {
@@ -109,6 +134,10 @@
     font-size: 14px;
     line-height: 20px;
   }
+
+  @media (min-width: 1440px) {
+    line-height: 18px;
+  }
 }
 
 .form__item input {
@@ -122,6 +151,10 @@
 
   @media (min-width: 768px) {
     width: 362px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 350px;
   }
 }
 
@@ -154,6 +187,10 @@
 
   @media (min-width: 768px) {
     width: 362px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 350px;
   }
 }
 /* стрелка */
